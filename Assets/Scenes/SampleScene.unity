@@ -6543,7 +6543,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -6599,13 +6599,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.59951293, y: 0.13776436, z: -0.10571029, w: 0.7813006}
+  m_LocalRotation: {x: 0.48296294, y: 0.22414392, z: -0.12940955, w: 0.8365163}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 75, y: 20, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 30, z: 0}
 --- !u!1001 &711819765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22080,7 +22080,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: I have a few skills you may want to see, Which of them are you interested
-    in seeing?
+    in looking at?
 --- !u!222 &1448069120
 CanvasRenderer:
   m_ObjectHideFlags: 0
