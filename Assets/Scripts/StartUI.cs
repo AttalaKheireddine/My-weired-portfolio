@@ -7,11 +7,13 @@ public class StartUI : MonoBehaviour
     [SerializeField] float timeStep = 0.1f;
     [SerializeField] int numSteps = 1000,stepToStartAnimation = 10;
     [SerializeField] float fallSpeed = 1;
+    [SerializeField] float startAnimationTime = 3f; //user has to see start animation before he can click
 
     [SerializeField] Transform transformToFall;
     [SerializeField] DelayedCameraMove mover;
     [SerializeField] Animator treasureChestAnim;
     [SerializeField] ParticleSystem chestGlow;
+    bool canClick = false;
     bool hasClicked = false;
     void timeSwitch()
     {
@@ -20,14 +22,19 @@ public class StartUI : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        timeSwitch();
+         StartCoroutine(GiveTimeToStartAnimation());
+    }
+
+    IEnumerator GiveTimeToStartAnimation()
+    {
+        yield return new WaitForSeconds(startAnimationTime);
+        canClick = true;
     }
 
     public void HandleClick()
     {
-        
+        if (!canClick) return;
         if (hasClicked) return;
-        timeSwitch();
         hasClicked = true;
         StartCoroutine(Fall());
     }
