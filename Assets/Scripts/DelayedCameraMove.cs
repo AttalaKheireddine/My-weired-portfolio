@@ -7,6 +7,7 @@ public class DelayedCameraMove : MonoBehaviour
     // will wait, move and rotate, then stop
     [SerializeField] float delay, moveTime;
     [SerializeField] Vector3 angularVelocity, speed;
+    [SerializeField] GameObject ScrollOfPresentaion;
     Rigidbody m_rigid;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class DelayedCameraMove : MonoBehaviour
         m_rigid.velocity = Vector3.zero;
         m_rigid.angularVelocity = Vector3.zero;
         m_rigid.freezeRotation = true;
+        ScrollOfPresentaion.SetActive(true);
 
     }
 }
