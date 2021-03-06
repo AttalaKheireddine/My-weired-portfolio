@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5957565294a394440854b13ad8f44fd1, type: 3}
+  m_Name: Survival Tactics
+  m_EditorClassIdentifier: 
+  title: Survival Tactics
+  illustrativeImage: {fileID: 0}
+  description: A tactical game where the user needs to survive the longest amount
+    of time through skill and strategy facing an infinite flow of enemies. This game's
+    code was finished but it still needs graphic design for the character, made in
+    Unitys
+  tags: 0000000001000000

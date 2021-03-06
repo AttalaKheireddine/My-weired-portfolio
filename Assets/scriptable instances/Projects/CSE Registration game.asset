@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5957565294a394440854b13ad8f44fd1, type: 3}
+  m_Name: CSE Registration game
+  m_EditorClassIdentifier: 
+  title: CSE Registration game
+  illustrativeImage: {fileID: 0}
+  description: (Extrascolar) A game experience created to make registrations as a
+    member in CSE club more fun. Made in Unity and C#
+  tags: 000000000100000003000000
