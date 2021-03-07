@@ -27,6 +27,5 @@ public class DelayedCameraMove : MonoBehaviour
         m_rigid.freezeRotation = true;
         yield return new WaitForSeconds(delayBeforeNextAnimation);
         ScrollOfPresentaion.SetActive(true);
-
     }
 }

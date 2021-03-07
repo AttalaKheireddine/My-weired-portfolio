@@ -15,5 +15,4 @@ MonoBehaviour:
   skillTypeName: Language
   skillsInThisType: Arabic, French, English, Public Speaking, Poetry, Translation,
     Written Communication
-  sceneForDetails:
-    m_Handle: 0
+  sceneForDetails: Language Skills

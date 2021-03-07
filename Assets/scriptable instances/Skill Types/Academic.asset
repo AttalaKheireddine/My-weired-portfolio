@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillTypeName: Academic
   skillsInThisType: 5th year student at ESI Algiers, Maths, Coding theory
-  sceneForDetails:
-    m_Handle: 0
+  sceneForDetails: Academic

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ShowSkill : MonoBehaviour
 {
     [SerializeField] Text overviewText;
-    Scene detailsScene;
+    string detailsScene;
 
 
     // Start is called before the first frame update
@@ -19,6 +19,6 @@ public class ShowSkill : MonoBehaviour
 
     public void OnDetailsButtonClick()
     {
-        SceneManager.LoadScene(detailsScene.name);
+        SceneManager.LoadScene(detailsScene);
     }
 }

@@ -6,5 +6,5 @@ public class SkillTypeData : ScriptableObject
 {
     public string skillTypeName;
     public string skillsInThisType;
-    public Scene sceneForDetails;
+    public string sceneForDetails;
 }

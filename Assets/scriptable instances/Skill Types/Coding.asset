@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillTypeName: Coding Skill
   skillsInThisType: Python, C#, Unity, Web, Django, SQL, Virtual Reality
-  sceneForDetails:
-    m_Handle: 0
+  sceneForDetails: Coding Skills
