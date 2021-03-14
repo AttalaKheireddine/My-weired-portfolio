@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5957565294a394440854b13ad8f44fd1, type: 3}
-  m_Name: Strange Invaders
+  m_Name: Translation
   m_EditorClassIdentifier: 
-  title: Strange Invaders
+  title: Translation
   illustrativeImage: {fileID: 0}
-  description: My first real coding experience, a clone of the legendary game "space
-    invaders" made in python, it included the original game mechanics along with
-    some never-seen-before types of enemies, and a custom boss
-  tags: 02000000
+  description: "Ability of translating content between Arabic, French and English
+    in a high quality fashion. Done translation work include pedagogy supports, research
+    papers and r\xE9sum\xE9s"
+  tags: 

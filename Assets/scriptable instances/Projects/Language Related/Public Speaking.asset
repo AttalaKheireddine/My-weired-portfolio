@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5957565294a394440854b13ad8f44fd1, type: 3}
+  m_Name: Public Speaking
+  m_EditorClassIdentifier: 
+  title: Public Speaking
+  illustrativeImage: {fileID: 0}
+  description: Speaking to audiences up to a few hundreds of people. Whether a hackathon
+    pitch, a conference animation, or a project presentation, all is done well with
+    a fairly good ability to improvise on known topics
+  tags: 

@@ -76,4 +76,19 @@ public class DisplayProjects : MonoBehaviour
         }
         displayProjects(filteredList.ToArray());
     }
+
+    public void DisplayCustomContent(GameObject contentPrefab)
+    {
+        foreach (Transform t in contentRect.transform)
+        {
+            Destroy(t.gameObject);
+        }
+        float contenHeight = contentPrefab.GetComponent<RectTransform>().rect.height;
+        RectTransform instance = Instantiate(contentPrefab, contentRect).GetComponent<RectTransform>();
+        Vector3 position = instance.localPosition;
+        instance.localPosition = new Vector3(position.x, -contenHeight/2, position.z);
+        Rect rect = contentRect.rect;
+        scrollbar.value = 1; //reset the scrollBar to the top
+        contentRect.sizeDelta = new Vector2(0, contenHeight);
+    }
 }
