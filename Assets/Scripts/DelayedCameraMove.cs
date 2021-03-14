@@ -9,7 +9,9 @@ public class DelayedCameraMove : MonoBehaviour
     [SerializeField] Vector3 angularVelocity, speed;
     [SerializeField] GameObject ScrollOfPresentaion;
     [SerializeField] float delayBeforeNextAnimation;
+    [SerializeField] Transform cameraHolder;
     Rigidbody m_rigid;
+    [SerializeField] GameManager manager;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class DelayedCameraMove : MonoBehaviour
         m_rigid.angularVelocity = Vector3.zero;
         m_rigid.freezeRotation = true;
         yield return new WaitForSeconds(delayBeforeNextAnimation);
+        manager.RegisterPosition(cameraHolder);
         ScrollOfPresentaion.SetActive(true);
     }
 }

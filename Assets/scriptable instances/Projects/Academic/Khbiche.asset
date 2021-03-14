@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5957565294a394440854b13ad8f44fd1, type: 3}
   m_Name: Khbiche
   m_EditorClassIdentifier: 
-  title: A very good student
+  title: A good student
   illustrativeImage: {fileID: 0}
   description: Averaging at 14 all-around the four first years, I have been deserving
     of many nicknames, including the popular "KH!abchoune"

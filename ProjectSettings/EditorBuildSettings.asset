@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Language Skills.unity
     guid: 28a66cb9c33ad314cb26d9dc256926d3
+  - enabled: 1
+    path: Assets/Scenes/First Scene 2.unity
+    guid: 08670c08081366c4fa8dd94231421e20
   m_configObjects: {}

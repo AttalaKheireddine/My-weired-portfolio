@@ -4,45 +4,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    bool first = true;
-    [SerializeField] GameObject[] objecTOActivate, objectsToInactivate;
-    [SerializeField] Transform mainCamera, chestLid;
-    public Vector3 cameraPosition, chestLidPosition;
-    public Quaternion cameraRotation, chestLidRotation;
-    // Start is called before the first frame update
-    void Start()
+    Vector3 position;
+    Quaternion rotation;
+    public void RegisterPosition(Transform trackedObject)
     {
-        DontDestroyOnLoad(gameObject);
+        position = trackedObject.position;
+        rotation = trackedObject.rotation;
     }
 
-    private void OnLevelWasLoaded()
+    public void GivePositionFromRegistered(Transform objectToPosition)
     {
-        if (first)
-        {
-            return;
-        }
-        else
-        {
-            foreach (GameObject g in objecTOActivate)
-            {
-                g.SetActive(true);
-            }
-            foreach (GameObject g in objectsToInactivate)
-            {
-                g.SetActive(false);
-            }
-            mainCamera.position = cameraPosition;
-            mainCamera.rotation = cameraRotation;
-            chestLid.position = chestLidPosition;
-            chestLid.rotation = chestLidRotation;
-        }
+        objectToPosition.position = position;
+        objectToPosition.rotation = rotation;
     }
-    public void registerValues()
+
+    private void Start()
     {
-        chestLidPosition = chestLid.position;
-        chestLidRotation = chestLid.rotation;
-        cameraPosition = mainCamera.position;
-        cameraRotation = mainCamera.rotation;
-        first = false;
+        GameObject.DontDestroyOnLoad(gameObject);
     }
 }

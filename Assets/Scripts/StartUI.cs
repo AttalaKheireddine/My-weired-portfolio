@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StartUI : MonoBehaviour
 {
+    [SerializeField] GameManager manager;
     [SerializeField] float timeStep = 0.1f;
     [SerializeField] int numSteps = 1000,stepToStartAnimation = 10;
     [SerializeField] float fallSpeed = 1;

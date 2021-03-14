@@ -378,7 +378,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 954993774}
   m_HandleRect: {fileID: 954993773}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 443109910}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.060813006
+  m_Size: 0.07483188
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1e29350ccc8de42b87fcf6d3b5ead3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenePath: Assets/Scenes/First Scene.unity
+  scenePath: Assets/Scenes/First Scene 2.unity
 --- !u!114 &850239869
 MonoBehaviour:
   m_ObjectHideFlags: 0
