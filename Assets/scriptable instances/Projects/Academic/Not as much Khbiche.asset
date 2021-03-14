@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Not as much Khbiche
   m_EditorClassIdentifier: 
   title: CSE
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: a9ac634f8253f3f4a850774117fb71ab, type: 3}
   description: I was member at CSE (Club scientifique de l'ESI), at which I spent
     my ESI years and participated in the making of a lot of events including HackIT,
     leapfrog Hackathon, and many others.

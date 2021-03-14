@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Khbiche
   m_EditorClassIdentifier: 
   title: A good student
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 55a94d0c5ff294a48a7e384e0b23af6d, type: 3}
   description: Averaging at 14 all-around the four first years, I have been deserving
     of many nicknames, including the popular "KH!abchoune"
   tags: 

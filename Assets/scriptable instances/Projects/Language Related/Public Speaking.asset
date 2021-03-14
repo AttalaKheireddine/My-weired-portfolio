@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Public Speaking
   m_EditorClassIdentifier: 
   title: Public Speaking
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: f4824af28ac58f5429f48bda3f51efec, type: 3}
   description: Speaking to audiences up to a few hundreds of people. Whether a hackathon
     pitch, a conference animation, or a project presentation, all is done well with
     a fairly good ability to improvise on known topics

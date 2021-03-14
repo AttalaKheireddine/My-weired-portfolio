@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CSE Registration game
   m_EditorClassIdentifier: 
   title: CSE Registration game
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 6be2334a017bea241952f9e4dc1126c8, type: 3}
   description: (Extrascolar) A game experience created to make registrations as a
     member in CSE club more fun. Made in Unity and C#
   tags: 000000000100000003000000

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Translate
   m_EditorClassIdentifier: 
   title: Translate
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: bfa999484e159ec4888a4e327671b904, type: 3}
   description: '(School Project) : A platform for connecting translators to people
     who ask for their services, technologies used are: Python, Django, HTML, CSS,
     and bootstrap'

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Digital content
   m_EditorClassIdentifier: 
   title: Digital content Writing
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 14cef029c6d28fc4f9b3301d9ebb1d8e, type: 3}
   description: An ability acquired from my years at CSE Club Scientique de l'ESI.
     The ability to write appealing posts on social media and use a mix of creativity,
     simpleness and grammar precision to reach the goal.

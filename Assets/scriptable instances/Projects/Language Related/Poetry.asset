@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Poetry
   m_EditorClassIdentifier: 
   title: Poetry
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 4305f5d7c56ff0649b27aaccdd3be2a8, type: 3}
   description: This skill includes ability to write poems in 3 different languages,
     make simple poems in less than 30 minutes. Improvised and written rap (English)
     about virtually any topic.

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Translation
   m_EditorClassIdentifier: 
   title: Translation
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 9ad2dd14b21e00f41a958e61a0eba9c7, type: 3}
   description: "Ability of translating content between Arabic, French and English
     in a high quality fashion. Done translation work include pedagogy supports, research
     papers and r\xE9sum\xE9s"

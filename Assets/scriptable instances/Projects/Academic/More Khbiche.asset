@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: More Khbiche
   m_EditorClassIdentifier: 
   title: Maths and theory
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 7361e65c96c780a458b819c86ae30881, type: 3}
   description: Favourite topics at schools included mathematics (Algebra, logic,
     and analysis) as well as coding theory subjects, at which were my best performances
   tags: 

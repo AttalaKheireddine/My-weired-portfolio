@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Pr\xE9cision"
   m_EditorClassIdentifier: 
   title: "Pr\xE9cision"
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 60dde087d66239e4189390d56a6ffeda, type: 3}
   description: '(School Project) : A tool made in WPF and C# for generating 3D approximation
     of topographic elements based on a satellite image and height data. This was
     a 6-member team effort for which I served as a project manager and coder'

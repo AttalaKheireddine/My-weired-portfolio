@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: The Red One
   m_EditorClassIdentifier: 
   title: The Red One
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 6a4eff3c7c5e02144bc8962316253c6b, type: 3}
   description: 'A Unity-powered platformer game based on a personal idea, works on
     Desktop and android Work on this included: concept, coding, level design and
     some graphic design'

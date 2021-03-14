@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Corona Watch
   m_EditorClassIdentifier: 
   title: Corona Watch
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 9e4a1cc9cbaa67748929e9056fe25c0a, type: 3}
   description: '(School Project) : AA website that displays all the major information
     on the Covid pandemic and provides some additional features, the project was
     a web+mobile app in which I lead a 6-person team. My contribution was in back-end

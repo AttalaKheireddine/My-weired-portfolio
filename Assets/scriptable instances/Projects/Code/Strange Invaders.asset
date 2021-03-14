@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Strange Invaders
   m_EditorClassIdentifier: 
   title: Strange Invaders
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: c5aea86973d38074a92e9b3ef0c10705, type: 3}
   description: My first real coding experience, a clone of the legendary game "space
     invaders" made in python, it included the original game mechanics along with
     some never seen before types of enemies, and a custom boss

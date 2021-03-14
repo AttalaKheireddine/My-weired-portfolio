@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Survival Tactics
   m_EditorClassIdentifier: 
   title: Survival Tactics
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: f3b887bcd685b4f4781f8dc199a4e25c, type: 3}
   description: A tactical game where the user needs to survive the longest amount
     of time through skill and strategy facing an infinite flow of enemies. This game's
     code was finished but it still needs graphic design for the character, made in

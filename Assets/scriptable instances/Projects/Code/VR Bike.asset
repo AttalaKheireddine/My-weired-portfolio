@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VR Bike
   m_EditorClassIdentifier: 
   title: VR Bike
-  illustrativeImage: {fileID: 0}
+  illustrativeImage: {fileID: 21300000, guid: 93ef0aaa3686e974eb2a742755ba469e, type: 3}
   description: '(Extrascolar project) : A small VR game for which the user needs
     to ride a bike to a given destination. This game was made to represent CSE Club
     scientifique de l''ESI in a club competition. It was made in Unity3D'
