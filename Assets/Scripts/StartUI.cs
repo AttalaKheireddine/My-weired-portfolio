@@ -7,12 +7,12 @@ public class StartUI : MonoBehaviour
     [SerializeField] GameManager manager;
     [SerializeField] float timeStep = 0.1f;
     [SerializeField] int numSteps = 1000,stepToStartAnimation = 10;
+    [SerializeField] Animator chestAnimator;
     [SerializeField] float fallSpeed = 1;
     [SerializeField] float startAnimationTime = 3f; //user has to see start animation before he can click
 
     [SerializeField] Transform transformToFall;
     [SerializeField] DelayedCameraMove mover;
-    [SerializeField] RotateChestLid chestAnim;
     [SerializeField] ParticleSystem chestGlow;
     bool canClick = false;
     bool hasClicked = false;
@@ -59,7 +59,7 @@ public class StartUI : MonoBehaviour
             if (i==stepToStartAnimation)
             {
                 mover.StartCoroutine(mover.CameraAnimation());
-                chestAnim.OpenChest();
+                chestAnimator.Play("open chest in all lods");
                 chestGlow.Play();
             }
             yield return new WaitForSeconds(timeStep);

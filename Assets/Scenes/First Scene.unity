@@ -297,6 +297,31 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &55684747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000014133228818, guid: bac81d98f55582148a49f7a4b6c6466d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1883768470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &55684748
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55684747}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cae08dfcac255004fb35630f606bbebf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &71879034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5828,11 +5853,11 @@ MonoBehaviour:
   timeStep: 0.001
   numSteps: 70
   stepToStartAnimation: 40
+  chestAnimator: {fileID: 55684748}
   fallSpeed: 150
   startAnimationTime: 1.5
   transformToFall: {fileID: 487029768}
   mover: {fileID: 253041790}
-  chestAnim: {fileID: 1016742181}
   chestGlow: {fileID: 1562348623}
 --- !u!1 &358403469
 GameObject:
@@ -7507,6 +7532,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1883768470}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1016742180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1883768470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1016742181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7520,13 +7551,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chests:
-  - {fileID: 1154695241}
+  - {fileID: 1016742180}
   - {fileID: 1517453005}
   - {fileID: 1227550087}
   startRotation: 0
   endRotation: -120
-  animationTime: 2
-  numberOfSteps: 80
+  animationTime: 1.5
+  numberOfSteps: 50
 --- !u!4 &1020104525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4569874863358318, guid: 6ebcf73f55c8b42429dd1e4efb9d30d4,
@@ -17380,12 +17411,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4432975863972712, guid: 278e8eacf74c6154ebc173a666e00c27,
     type: 3}
   m_PrefabInstance: {fileID: 1154016078}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1154695241 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000012744868624, guid: bac81d98f55582148a49f7a4b6c6466d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1883768470}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1164299944
 PrefabInstance:
@@ -37723,9 +37748,49 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010026617180, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -103.04083
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010083871122, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010420803732, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010420803732, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010420803732, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010420803732, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010420803732, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -103.04083
       objectReference: {fileID: 0}
     - target: {fileID: 4000011175012894, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
       propertyPath: m_RootOrder
@@ -37778,6 +37843,26 @@ PrefabInstance:
     - target: {fileID: 4000011175012894, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012104727522, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012104727522, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012104727522, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012104727522, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012104727522, guid: bac81d98f55582148a49f7a4b6c6466d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -103.04083
       objectReference: {fileID: 0}
     - target: {fileID: 23000010714294674, guid: bac81d98f55582148a49f7a4b6c6466d,
         type: 3}
