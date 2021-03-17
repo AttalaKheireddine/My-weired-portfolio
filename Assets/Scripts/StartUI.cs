@@ -12,13 +12,13 @@ public class StartUI : MonoBehaviour
 
     [SerializeField] Transform transformToFall;
     [SerializeField] DelayedCameraMove mover;
-    [SerializeField] Animator treasureChestAnim;
+    [SerializeField] RotateChestLid chestAnim;
     [SerializeField] ParticleSystem chestGlow;
     bool canClick = false;
     bool hasClicked = false;
     void timeSwitch()
     {
-        Time.timeScale = Time.timeScale == 0 ? 1 : 0; 
+        Time.timeScale = Time.timeScale == 0 ? 1 : 0;
     }
     // Start is called before the first frame update
     private void Start()
@@ -28,6 +28,8 @@ public class StartUI : MonoBehaviour
 
     IEnumerator GiveTimeToStartAnimation()
     {
+        yield return new WaitForSeconds(0.1f);
+        GetComponentInChildren<Animator>().Play("Mask Show UI");
         yield return new WaitForSeconds(startAnimationTime);
         canClick = true;
     }
@@ -57,7 +59,7 @@ public class StartUI : MonoBehaviour
             if (i==stepToStartAnimation)
             {
                 mover.StartCoroutine(mover.CameraAnimation());
-                treasureChestAnim.Play("TreasureChest_OPEN");
+                chestAnim.OpenChest();
                 chestGlow.Play();
             }
             yield return new WaitForSeconds(timeStep);
