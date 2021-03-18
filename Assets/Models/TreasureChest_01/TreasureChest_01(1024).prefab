@@ -105,7 +105,6 @@ GameObject:
   - component: {fileID: 33000011723047470}
   - component: {fileID: 23000012189821950}
   - component: {fileID: 95000013055497546}
-  - component: {fileID: 65000011595091146}
   m_Layer: 0
   m_Name: TreasureChest_01(1024)
   m_TagString: Untagged
@@ -194,16 +193,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &65000011595091146
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000012005567598}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.1887546, y: 2.1193063, z: 1.40181}
-  m_Center: {x: 0, y: 0.0025271177, z: 0.700905}
